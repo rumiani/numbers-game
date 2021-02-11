@@ -5,7 +5,14 @@ var znum;
 //////////add number
 var addnumbtn=document.querySelector('.addnumbtn');
 
+//counter
+var clicks = 0;
 
+function counter() {
+  clicks = clicks+1;
+  document.querySelector('.counter').value = clicks;
+};
+//end counter
 
 addnumbtn.addEventListener("keyup", enterbtn);
 
@@ -86,6 +93,6 @@ demonumbers.innerHTML=`${xnum}+${ynum}+${znum}=${sum}`;
 }
 window.onerror = function(msg, url, linenumber) {
     // alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
-    alert("you can not choose this number because it is too small or too big or unacceptable which means there is no asnwer for this number")
+    alert("you can not choose this number because it is too small or too big")
     return true;
 }
