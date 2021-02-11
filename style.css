@@ -1,17 +1,22 @@
 body{
     background-color: sandybrown;
 }
+.container{
+    margin: 10px 10px;
+flex-wrap: wrap;
+display: flex;
+}
+
 
 p {
     text-align:justify;
-    width: 100%;
+    width: 95%;
 }
 
-div {
+/* div {
     margin: 10px auto;
-    width: 30%;
-    /* height: 50px; */
-}
+    /* width: 50%; */
+/* } */ 
 
 
 .inputnum,.inputgoal,.counter{
@@ -20,7 +25,8 @@ div {
     border-radius: 5px;
     text-align:center;
     padding: 10px;
-    width: 30%;
+    width: 50px;
+
 
 }
 .demonumbers,.demogoal{
@@ -30,7 +36,9 @@ div {
     /* padding: 5px; */
     text-align:left;
     padding: 10px;
-      overflow: auto;
+    /* overflow: auto; */
+    width: 80%;
+
 
 }
 
@@ -39,17 +47,29 @@ div {
 
 .addnumbtn{
     background: springgreen;
-    width: 100%;
+    width: 200px;
     border-radius: 5px;
     height: 50px;
     margin: auto;
+    cursor: pointer;
+    
 
+}
+
+
+.addnumbtn:hover{
+        background-color: rgb(39, 138, 0);
 }
 .goalnumbtn{
     background:tomato;
-    width: 100%;
+    width: 200px;
     border-radius: 5px;
     height: 50px;
     margin: auto;
+    cursor: pointer;
 
+}
+
+.goalnumbtn:hover{
+    background-color: rgb(255, 0, 0);
 }
