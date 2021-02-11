@@ -14,7 +14,7 @@ div {
 }
 
 
-.inputnum,.inputgoal{
+.inputnum,.inputgoal,.counter{
     background-color:seashell;
     height: 20px;
     border-radius: 5px;
