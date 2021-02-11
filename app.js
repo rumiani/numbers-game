@@ -1,9 +1,12 @@
 
+window.addEventListener("load",function(event){ });
+
 var xnum;
 var ynum;
 var znum;
 //////////add number
 var addnumbtn=document.querySelector('.addnumbtn');
+addnumbtn.addEventListener('click',addanumber);
 
 //counter
 var clicks = 0;
@@ -14,36 +17,17 @@ function counter() {
 };
 //end counter
 
-addnumbtn.addEventListener("keyup", enterbtn);
 
-function enterbtn(event) {
-    if (event.keyCode === 13) {
-    event.preventDefault();
-    document.querySelector('.addnumbtn').click();
-   }
- }
+// add a number via "enter" key
+// addnumbtn.addEventListener("keyup", enterbtn);
 
-
- addnumbtn.addEventListener('click',addanumber);
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
+// function enterbtn(event) {
+//     if (event.keyCode === 13) {
+//     event.preventDefault();
+//     document.querySelector('.addnumbtn').click();
+//    }
+//  }
+//end  add a number via "enter" key
 
 
 
@@ -108,10 +92,6 @@ function randomaray (){
 }
 
 
-
-
-
-
 demogoal()
 function demogoal(){
     
@@ -124,3 +104,7 @@ window.onerror = function(msg, url, linenumber) {
     alert("you can not choose this number because it is too small or too big")
     return true;
 }
+
+
+
+
