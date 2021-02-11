@@ -30,6 +30,8 @@ div {
     /* padding: 5px; */
     text-align:left;
     padding: 10px;
+      overflow: auto;
+
 }
 
 
