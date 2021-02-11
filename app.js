@@ -26,9 +26,20 @@ function enterbtn(event) {
 
  addnumbtn.addEventListener('click',addanumber);
 
- function hey(){
-     alert("hey")
- }
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
@@ -57,7 +68,18 @@ function demo(){
 const demonumbers=document.querySelector(".demonumbers");
 demonumbers.innerHTML=myArray;
 }
+ //clean the input
+ addnumbtn=addEventListener("click",cleaninput);
+
+ function cleaninput() {
+//  alert("hey")
+    document.querySelector('.inputnum').value = "hey";
+ };
+ //end cleaning the input
 }
+
+
+
 
 //add the goal
 // myArray=[3,4,5,6,7,8,9,10,11,12,13,14,15];
@@ -84,6 +106,12 @@ function randomaray (){
     randomaray();   
 }
 }
+
+
+
+
+
+
 demogoal()
 function demogoal(){
     
