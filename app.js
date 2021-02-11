@@ -86,6 +86,6 @@ demonumbers.innerHTML=`${xnum}+${ynum}+${znum}=${sum}`;
 }
 window.onerror = function(msg, url, linenumber) {
     // alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
-    alert("you can not choose this number because it is too small or too big")
+    alert("you can not choose this number because it is too small or too big or unacceptable which means there is no asnwer for this number")
     return true;
 }
