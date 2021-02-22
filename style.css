@@ -3,8 +3,7 @@ body{
 }
 .container{
     margin: 10px 10px;
-flex-wrap: wrap;
-display: flex;
+
 }
 
 
@@ -13,10 +12,10 @@ p {
     width: 95%;
 }
 
-/* div {
-    margin: 10px auto;
-    /* width: 50%; */
-/* } */ 
+  .row {
+    flex-wrap: wrap;
+    display: flex;
+  }  
 
 
 .inputnum,.inputgoal,.counter{
